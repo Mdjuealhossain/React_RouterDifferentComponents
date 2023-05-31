@@ -1,0 +1,51 @@
+nav{
+  height: 5rem;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link:hover{
+color:blueviolet ;
+}
+nav .active {
+  color: red ;
+  }
+
+.nav-link{
+  color: white;
+  padding: 10rem;
+}
+.pages-header{
+ text-align: center;
+}
+
+
+.contact-ftter{
+  align-items: start;
+  text-align: end;
+  padding-right: 3rem;
+}
+.section{
+  padding: 1rem;
+  display: grid;
+  grid-gap: 2rem;
+}
+.tutorial-div{
+  background-color: aliceblue;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .section{
+    grid-template-columns: auto auto;
+  }
+  
+}
+@media screen and (min-width: 1000px) {
+  .section{
+    grid-template-columns: auto auto auto;
+  }
+  
+}
